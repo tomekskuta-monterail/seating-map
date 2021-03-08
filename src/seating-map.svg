@@ -5,24 +5,24 @@
   </g>
   <rect id="Rectangle_2" data-name="Rectangle 2" width="438" height="193" transform="translate(120 105)"
     fill="#81b29a" />
+  <rect id="Sector_A" data-name="Sector A" width="39" height="29" transform="translate(120 29)" fill="#d9d9d9" />
+  <rect id="Sector_B" data-name="Sector B" width="39" height="29" transform="translate(175 29)" fill="#d9d9d9" />
+  <rect id="Sector_C" data-name="Sector C" width="39" height="29" transform="translate(234 29)" fill="#d9d9d9" />
+  <rect id="Sector_D" data-name="Sector D" width="39" height="29" transform="translate(291 29)" fill="#d9d9d9" />
+  <rect id="Sector_E" data-name="Sector E" width="39" height="29" transform="translate(348 29)" fill="#d9d9d9" />
+  <rect id="Sector_F" data-name="Sector F" width="39" height="29" transform="translate(405 29)" fill="#d9d9d9" />
+  <rect id="Sector_G" data-name="Sector G" width="39" height="29" transform="translate(464 29)" fill="#d9d9d9" />
+  <rect id="Sector_H" data-name="Sector H" width="39" height="29" transform="translate(519 29)" fill="#d9d9d9" />
+  <rect id="Vip_x5F_Sector" data-name="Vip Sector" width="210" height="28" transform="translate(120 67)"
+    fill="#d9d9d9" />
   <g id="Grouped_x5F_Sectors" data-name="Grouped Sectors">
     <rect id="rect_4" data-name="rect 4" width="39" height="29" transform="translate(349 66)" fill="#d9d9d9" />
     <rect id="rect_3" data-name="rect 3" width="39" height="29" transform="translate(520 67)" fill="#d9d9d9" />
     <rect id="rect_2" data-name="rect 2" width="39" height="29" transform="translate(466 67)" fill="#d9d9d9" />
     <rect id="rect_1" data-name="rect 1" width="39" height="29" transform="translate(407 67)" fill="#d9d9d9" />
   </g>
-  <rect id="Vip_x5F_Sector" data-name="Vip Sector" width="210" height="28" transform="translate(120 67)"
-    fill="#d9d9d9" />
-  <rect id="Sector_H" data-name="Sector H" width="39" height="29" transform="translate(519 29)" fill="#d9d9d9" />
-  <rect id="Sector_G" data-name="Sector G" width="39" height="29" transform="translate(464 29)" fill="#d9d9d9" />
-  <rect id="Sector_F" data-name="Sector F" width="39" height="29" transform="translate(405 29)" fill="#d9d9d9" />
-  <rect id="Sector_E" data-name="Sector E" width="39" height="29" transform="translate(348 29)" fill="#d9d9d9" />
-  <rect id="Sector_D" data-name="Sector D" width="39" height="29" transform="translate(291 29)" fill="#d9d9d9" />
-  <rect id="Sector_C" data-name="Sector C" width="39" height="29" transform="translate(234 29)" fill="#d9d9d9" />
-  <rect id="Sector_B" data-name="Sector B" width="39" height="29" transform="translate(175 29)" fill="#d9d9d9" />
-  <rect id="Sector_A" data-name="Sector A" width="39" height="29" transform="translate(120 29)" fill="#d9d9d9" />
-  <text id="VIP_Sector-2" data-name="VIP Sector" transform="translate(178 89)" stroke="#707070" stroke-width="1"
-    font-size="20" font-family="HelveticaNeue, Helvetica Neue">
+  <text id="VIP_Sector-2" data-name="VIP Sector" transform="translate(178 87)" stroke="#707070" stroke-width="1"
+    font-size="16" font-family="HelveticaNeue, Helvetica Neue">
     <tspan x="0" y="0">VIP Sector</tspan>
   </text>
 </svg>
