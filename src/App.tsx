@@ -9,8 +9,19 @@ import Legend from 'components/Legend';
 
 import seatingMapFile from 'seating-map.svg';
 
+const Header = styled.header`
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 40px;
+`;
+
 const H1 = styled.h1`
-  padding: 0 40px;
+  margin: 0;
+`;
+
+const LinkToRepo = styled.a`
+  color: black;
+  font-weight: bold;
 `;
 
 const MapWrapper = styled.div`
@@ -40,9 +51,16 @@ function App() {
 
   return (
     <>
-      <header>
+      <Header>
         <H1>Seating Map</H1>
-      </header>
+        <LinkToRepo
+          href="https://github.com/tomekskuta-monterail/seating-map"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Go to the repo
+        </LinkToRepo>
+      </Header>
       <Logs hoveredSector={hoveredSector} selectedSector={selectedSector} />
       <Sectors
         hoveredSector={hoveredSector}
