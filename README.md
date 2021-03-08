@@ -1,14 +1,14 @@
 # Seating map created with React and TypeScript
 
-See [demo](https://tomekskuta-monterail.github.io/seating-map)!
+See the [demo](https://tomekskuta-monterail.github.io/seating-map)!
 
 To open it locally:
 
 ```sh
-# clone repo
+# clone the repo
 git@github.com:tomekskuta-monterail/seating-map.git
 
-# go to catalog with project
+# go to catalog with the project
 cd seating-map
 
 # run development mode
