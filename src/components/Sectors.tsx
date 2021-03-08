@@ -14,32 +14,30 @@ type SectorProps = {
   selected: boolean;
 };
 
-const getBackgroundColor = ({ hovered, selected }: SectorProps) => {
-  if (hovered) {
-    return colors.hovered;
-  }
-  if (selected) {
-    return colors.selected;
-  }
-  return 'transparent';
-};
-
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   max-width: 900px;
   margin: 20px auto;
 `;
 
 const Sector = styled.button<SectorProps>`
   padding: 5px;
-  background-color: ${getBackgroundColor};
+  margin-bottom: 10px;
+  background-color: ${({ selected }) =>
+    selected ? colors.selected : 'transparent'};
   border: 1px black solid;
   border-radius: 50px;
+  transition: background-color 0.2s;
   cursor: pointer;
 
   &:not(:last-of-type) {
     margin-right: 10px;
+  }
+
+  @media (hover: hover) {
+    ${({ hovered }) => hovered && `background-color: ${colors.hovered};`}
   }
 `;
 

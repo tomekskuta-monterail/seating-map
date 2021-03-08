@@ -5,19 +5,18 @@ export const sectors = [
   'Sector D',
   'Sector E',
   'Sector F',
-  'Sector G',
-  'Sector H',
   'Vip Sector',
-  'Super Special Sectors',
+  'Grouped Sectors',
 ];
 
 export const colors = {
-  active: '#f5a65b',
-  hovered: '#c1cc99',
-  selected: '#8bbd8b',
+  active: '#e07a5f',
+  hovered: '#f6deb6',
+  selected: '#ecb45b',
+  unavailable: '#d9d9d9',
 };
 
-export const classes = {
+export const classNames = {
   active: 'seating-map--active-sector',
   hovered: 'seating-map--hover-sector',
   selected: 'seating-map--selected-sector',
