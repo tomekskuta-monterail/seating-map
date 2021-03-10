@@ -3,7 +3,7 @@ import { classNames } from 'constants-data';
 export const replaceEscapedCharactersWithWhitespace = (name?: string) =>
   name?.replace(/(_x5F_)|(_)/g, ' ') || null;
 
-export const getSection = (
+export const getElement = (
   mapRefElement: HTMLDivElement | null,
   sectionId: string,
 ) =>

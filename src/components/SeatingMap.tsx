@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import {
   cloneElement,
-  getSection,
+  getElement,
   removeClonedElement,
   replaceEscapedCharactersWithWhitespace,
 } from 'utils';
@@ -61,7 +61,7 @@ function SeatingMap(props: Props) {
     }
 
     sectors.forEach((sectorId) => {
-      const element = getSection(mapRef.current, sectorId);
+      const element = getElement(mapRef.current, sectorId);
 
       if (element instanceof SVGElement) {
         element.classList.add(classNames.active);
@@ -85,7 +85,7 @@ function SeatingMap(props: Props) {
       return;
     }
 
-    const element = getSection(mapRefElement, hoveredSector);
+    const element = getElement(mapRefElement, hoveredSector);
 
     element?.classList.add(classNames.hovered);
 
@@ -122,7 +122,7 @@ function SeatingMap(props: Props) {
       return;
     }
 
-    const element = getSection(mapRefElement, selectedSector);
+    const element = getElement(mapRefElement, selectedSector);
 
     element?.classList.add(classNames.selected);
 
